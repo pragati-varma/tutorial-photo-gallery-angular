@@ -13,6 +13,7 @@ export class Tab2Page {
 
   async ngOnInit() {
     await this.photoService.loadSaved();
+    
   }
 
   public async showActionSheet(photo: UserPhoto, position: number) {
