@@ -5,10 +5,12 @@
     margin:5px;
     border-radius: 15%;
     --background:#e1e1e1;
-    --padding-start:7px;
+    --padding-start:0;
+    text-align: center;
 }
-.otp ion-col{
+.otp {
+    ion-col{
         margin-left: -5px;
         padding-left: 0;
    
-}
+}}
